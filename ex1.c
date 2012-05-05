@@ -1,9 +1,6 @@
-#include <stdio.h>
+int main()
+{
+	printf("Hellow World.\n");
 
-int main() {
- 
-  puts("Hello world.");
-
-  return 0;
-
+	return 0;
 }
