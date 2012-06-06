@@ -9,7 +9,9 @@ int main(int argc, char* argv[])
 	}
 
 	char *regions[] = {
-		"Prague",
+		//"Prague",
+		NULL,
+		"",
 		"Central Bohemian Region",
 		"South Bohemian Region",
 		"Plzeň Region",
@@ -33,3 +35,8 @@ int main(int argc, char* argv[])
 
 	return 0;
 }
+
+// 1. What can go into different parts of for loop, try ','
+//
+// 2. what is NULL
+//    value is actually 0x0, and all virtual addresses start with 0x100000000
